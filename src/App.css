@@ -1,0 +1,80 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #191e1f, #59e9f0);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background: #30ced5;
+  padding: 70px 90px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.search-box button:hover {
+  background-color: #0056b3;
+}
+
+.weather-box {
+  margin-top: 20px;
+}
+
+.weather-box h2 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.weather-box h3 {
+  font-size: 26px;
+  color: #007bff;
+  margin: 5px 0;
+}
+
+.weather-box p {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #555;
+}
+
+.info-text {
+  color: #fff;
+  font-size: 16px;
+}
